@@ -1,0 +1,21 @@
+ul{
+    font-size: 22px;
+
+}
+
+.nome{
+    margin-left: 20px;
+}
+
+.parti{
+    margin-right: 20px;
+    color: rgb(91, 127, 83);
+}
+
+li{
+    color:rgb(91, 127, 83) ;
+}
+
+.tuttonav{
+    overflow: hidden;
+}

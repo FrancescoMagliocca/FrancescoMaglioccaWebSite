@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francesco Magliocca</title>
+</head>
+<body>
+
+
+<app-header></app-header>
+<app-right-nav></app-right-nav>
+
+ <div class="firma">
+   <img src="../../../assets/img/Code.jpg"  height="30px">
+    <p class="nome">𝕱𝖗𝖆𝖓𝖈𝖊𝖘𝖈𝖔 𝕸𝖆𝖌𝖑𝖎𝖔𝖈𝖈𝖆</p>
+    <p class="lavoro">Informatico</p>
+    <p class="lavoro">Sito personale fatto in autonomia con Angular <fa-icon [icon]="faAngular"></fa-icon> </p>
+ </div>
+
+
+ <div class="d-flex flex-column flex-md-row justify-content-center w-100 contenitore">
+   <div class="p-2 dasimages"><img src="../../../assets/img/mare.jpg" width="100%"/></div>
+   <div class=" p-2 presentation">
+
+    <p>
+      <br><br>
+         Ciao! Sono Francesco Magliocca, <br> informatico ed
+      ex arbitro di calcio <br>
+      In questo sito troverai una panoramica del <br> mio percorso accademico,lavorativo
+      e delle mie passioni!
+   </p>
+
+   <br>
+   <br>
+   <p> <a href="#here" class="freccia">&#8595;</a></p>
+
+</div>
+
+ </div>
+
+<div id="here"></div>
+ <div class="work" id="work">
+
+   <h2 class="about">ABOUT ME</h2>
+
+   <p class="me">
+      Sono laureato in Informatica  con diverse esperienze nell'ambito
+      della programmazione web e nell'analisi di dati.
+
+      Attualmente sono un dipendente presso l'azienda Iveco nella sede di Torino
+      nel ruolo di Bussiness analyst e reporting analyst.
+      <br>
+      Se vuoi saperne di più  su di me visita la sezione <strong>About</strong> del sito.
+
+
+   </p>
+
+
+   <div class="cv"><a class="btn btn-primary buttoncv" href="../../../assets/img/CV.pdf" role="button" (click)="downloadCV()" download><fa-icon [icon]="faDownload"></fa-icon> Download CV</a></div>
+
+ </div>
+
+
+ <div class=" d-flex flex-column flex-md-row justify-content-center  aligns-items-center w-100 trisSkills">
+
+
+    <div class="p-2 img1">
+      <fa-icon [icon]="faLaptopCode" size="6x"></fa-icon>
+      <p class="sottotitoloTris">FullStack developer</p>
+      <p class="didascalietris"> Sono in grado di lavorare con le tecnologie
+        dello sviluppo web sia lato front-end sia
+        lato back-end
+      </p>
+    </div>
+
+
+    <div class="p-2 img2">
+      <fa-icon [icon]="faJava" size="6x"></fa-icon>
+      <p class="sottotitoloTris">Java Developer</p>
+      <p class="didascalietris">Durante il mio percorso accademico e lavorativo ho
+        approfondito il linguaggio Java e ciò mi permette di lavorarci
+        senza problemi
+      </p>
+    </div>
+
+
+    <div class="p-2 img3">
+      <fa-icon [icon]="faDatabase" size="6x"></fa-icon>
+      <p class="sottotitoloTris">Data Analyst</p>
+      <p class="didascalietris">Conosco le librerie python adatte alla manipolazione
+        dei dati ed in università ho avuto modo di studiare R
+      </p>
+    </div>
+
+
+ </div>
+
+
+ <div class="last">
+
+  <footer>
+    <div class="footer-content">
+        <h3>Get in touch!</h3>
+        <p>franci.magliocca@gmail.com | Tel:+39 3381474780</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/FranciMagliocca/"><fa-icon [icon]="faFacebookF"></fa-icon></a></li>
+            <li><a href="https://www.linkedin.com/in/francesco-magliocca/"><fa-icon [icon]="faLinkedin" ></fa-icon></a></li>
+            <li><a href="https://www.instagram.com/francesco_magliocca_/" ><fa-icon [icon]="faInstagram" ></fa-icon></a></li>
+            <li><a href="mailto:franci.magliocca@gmail.com"><fa-icon [icon]="faEnvelope" ></fa-icon></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 FrancescoMagliocca. designed by <span>FrancescoMagliocca with Angular</span></p>
+    </div>
+</footer>
+ </div>
+
+
+
+
+
+</body>
+</html>
+
